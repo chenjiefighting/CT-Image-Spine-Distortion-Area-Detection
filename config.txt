@@ -1,0 +1,33 @@
+[IVDM]
+height = 256
+width = 256
+
+test_images_path = ./datasets/IVDM/test/images/
+test_labels_path = ./datasets/IVDM/test/1st_manual/
+test_masks_path = ./datasets/IVDM/test/mask/
+train_images_path = ./datasets/IVDM/training/images/
+train_labels_path = ./datasets/IVDM/training/1st_manual/
+train_masks_path = ./datasets/IVDM/training/mask/
+
+h5py_save_path = ./datasets/IVDM/h5py/
+
+
+
+[generator]
+sub_height = 48
+sub_width = 48
+stride_h = 16
+stride_w = 16
+
+
+[train]
+name = retina
+datasets = IVDM
+epochs_num = 6
+batch_size = 32
+
+
+[evaluate]
+name = retina
+best_last = best
+datasets = IVDM
