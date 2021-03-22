@@ -16,12 +16,11 @@
  
  The format of the original data is .nii file<br>
  Convert original data into images, you can observe them intuitively<br>
- '''python
+ ``` python
  >>> nii_to_image.py 
- '''<br>
+ ```
  
  Convert image data into .hdf5 file<br>
- '''python
+ ``` python
  >>> rewrite_datasets.py
- '''<br>
- 
+ ```
