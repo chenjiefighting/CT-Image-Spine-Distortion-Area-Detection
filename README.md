@@ -1,10 +1,8 @@
 # CT-Image-Spine-Distortion-Area-Detection
- Implementation of CT Image Spine Distortion Area Detection<br>
- ==
- Dataset:MICCAI 2018 IVDM3Seg Challenge<br>
- ==
+### Implementation of CT Image Spine Distortion Area Detection<br>
+### Dataset:MICCAI 2018 IVDM3Seg Challenge<br>
  
- requires:<br>
+###  Requires:<br>
  nibabel<br>
  imageio<br>
  tensorflow 1.0<br>
@@ -13,7 +11,7 @@
  PIL<br>
  configparser<br>
  CV2<br>
- 
+###   Instructions:<br> 
  The format of the original data is .nii file<br>
  Convert original data into images, you can observe them intuitively<br>
  ``` python
