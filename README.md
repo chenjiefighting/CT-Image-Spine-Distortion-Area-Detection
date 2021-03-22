@@ -16,8 +16,8 @@
  
  The format of the original data is .nii file<br>
  Convert original data into images, you can observe them intuitively<br>
- $run nii_to_image.py <br>
+ '''$run nii_to_image.py '''<br>
  
- Convert image data into .hdf5 file
- $run rewrite_datasets.py
+ Convert image data into .hdf5 file<br>
+ '''$run rewrite_datasets.py'''<br>
  
