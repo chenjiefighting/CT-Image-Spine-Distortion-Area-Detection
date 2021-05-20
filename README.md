@@ -22,3 +22,12 @@ The challenge dataset contains 16 3D multi-modal magnetic resonance (MR) scans o
  ``` python
  >>> rewrite_datasets.py
  ```
+
+
+###   Results:
+![001_test](https://user-images.githubusercontent.com/76989858/118978198-a1cb5100-b9a9-11eb-9e13-ac9c7b446895.png)
+![1](https://user-images.githubusercontent.com/76989858/118978253-b14a9a00-b9a9-11eb-9bcf-d859cbb89d87.png)<br>
+explanation:blue represents correct segmentation, green represents missed segmentation, and red represents wrong segmentation<br>
+|Indicators    |PA             |MPA           |MIoU          |
+|------------- |----------:    |-------------:|:------------:|
+|Value         |0.996          |0.896         |0.875         |
