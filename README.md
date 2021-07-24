@@ -1,7 +1,7 @@
 # CT-Image-Spine-Distortion-Area-Detection
 ### Implementation of CT Image Spine Distortion Area Detection<br>
 ### Dataset:MICCAI 2018 IVDM3Seg Challenge<br>
-The challenge dataset contains 16 3D multi-modal magnetic resonance (MR) scans of the lower spine, with their corresponding manual segmentations, collected from 8 subjects at two different stages in a study investigating intervertebral discs (IVD) degeneration.
+The challenge dataset contains 16 3D multi-modal magnetic resonance (MR) scans of the lower spine, with their corresponding manual segmentations, collected from 8 subjects at two different stages in a study investigating intervertebral discs (IVD) degeneration. You can get by https://www.dropbox.com/s/q6eb6gjr0v5huwh/Training.zip?dl=0
 ###  Requires:
  nibabel<br>
  imageio<br>
